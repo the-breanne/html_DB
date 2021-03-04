@@ -132,7 +132,7 @@ NAVIGATION
    /*
    PAGE:
    */
-   .mydiv {background: #f8edeb; width:250px; height: 250px;}
+   .mydiv {background:#ede0d4; width:250px; height: 250px;}
    
    .myimage {
        float:left;
@@ -193,6 +193,6 @@ NAVIGATION
    }
    /* site body*/
    body {
-       background-color: #F8EDEB;
+       background-color: #ede0d4;
        color: #000;
    }
