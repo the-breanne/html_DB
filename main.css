@@ -1,0 +1,198 @@
+/*
+GENERAL
+*/
+a {
+    text-decoration: none;
+    }
+   
+   img {
+   max-width: 100%;
+   
+   }
+   
+   
+   
+    body {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 16px;
+      margin: 10px;
+    }
+   
+   
+    #wrapper {
+      max-width: 940px;
+      margin: 0 auto;
+      padding: 0 5%;
+   
+    }
+   
+   
+   
+    a {
+      color: #000;
+   
+    }
+   
+    h3 {
+        margin: 0 0 1em 0;
+    }
+   
+   
+   /*
+   HEADING
+   */
+   
+   header {
+     float: left;
+     margin: 0 0 20px 0;
+     padding: 2px 0 0 0;
+     width: 100%;
+   
+   }
+   
+   
+   
+   #logo {
+      text-align: center;
+      margin: 0;
+   
+    }
+   
+    h1  {
+    font-family: 'Fjalla One', sans-serif;
+    margin: 10px 0;
+    font-size: 46px;
+    font-weight: normal;
+    line-height: 0.5;
+    text-align: center;
+    color: 	#000;
+   
+    }
+   
+    h2  {
+   
+   
+    font-size: 1.00em;
+    font-weight: normal;
+    margin: -5px 0 0;
+    }
+   
+   
+   h3  {
+   
+   
+       font-size: 1.1em;
+       font-weight: 700;
+       margin: 15px 0 0;
+   }
+   
+  
+   
+   
+/*
+NAVIGATION
+*/
+/* Add a black background color to the top navigation */
+.navbar {
+  background-color: #a28e73;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #e6ccb2;
+  color: black;
+}
+
+   
+   
+   /*
+   FOOTER
+   */
+    footer {
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    color: #f8edeb;
+    }
+   
+
+
+   /*
+   PAGE:
+   */
+   .mydiv {background: #f8edeb; width:250px; height: 250px;}
+   
+   .myimage {
+       float:left;
+       width:300px;
+       height:350px;
+       margin:20px;
+       border-radius: 0px;
+       border-style: solid;
+       border-color: #ab8c6d;
+       border-width: 5px;
+   }
+   
+   
+   
+   
+    /*
+   PAGE: ABOUT
+   */
+   .myimage {
+       display: block;
+       max-width: 400px;
+       margin: 20px;
+       border-radius: 0px;
+       border-style: solid;
+       border-color: #ab8c6d;
+       border-width: 5px;
+   }
+   
+   /*
+   COLORS
+   */
+   
+   
+    /* header */
+     header {
+      background: #000;
+      border-color: #000;
+    }
+   
+    /* logo text*/
+   
+    h1,h2  {
+       color: #000;
+   }
+   
+   /* nav background on mobile devices*/
+   nav {
+      background: #e5d3bb;
+   }
+   
+   nav a, nav a:visited {
+       color: #5f4c3e;
+   }
+   
+   /* selected nav link color*/
+   nav a.selected, nav a:hover {
+     color: #000;
+   }
+   /* site body*/
+   body {
+       background-color: #F8EDEB;
+       color: #000;
+   }
